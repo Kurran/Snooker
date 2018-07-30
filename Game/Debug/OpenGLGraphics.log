@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OpenGLGraphics.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+Shader.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewBindAttribLocation imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewDetachShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetInfoLogARB imported
+nclgl.lib(OGLRenderer.obj) : error LNK2019: unresolved external symbol __imp__ChoosePixelFormat@8 referenced in function "public: __thiscall OGLRenderer::OGLRenderer(class Window &)" (??0OGLRenderer@@QAE@AAVWindow@@@Z)
+nclgl.lib(OGLRenderer.obj) : error LNK2019: unresolved external symbol __imp__SetPixelFormat@12 referenced in function "public: __thiscall OGLRenderer::OGLRenderer(class Window &)" (??0OGLRenderer@@QAE@AAVWindow@@@Z)
+nclgl.lib(OGLRenderer.obj) : error LNK2019: unresolved external symbol __imp__SwapBuffers@4 referenced in function "public: void __thiscall OGLRenderer::SwapBuffers(void)" (?SwapBuffers@OGLRenderer@@QAEXXZ)
+nclgl.lib(OGLRenderer.obj) : error LNK2019: unresolved external symbol __imp__GetDC@4 referenced in function "public: __thiscall OGLRenderer::OGLRenderer(class Window &)" (??0OGLRenderer@@QAE@AAVWindow@@@Z)
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__TrackMouseEvent@4 referenced in function "protected: long __thiscall Window::WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@Window@@IAEJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__TranslateMessage@4 referenced in function "protected: void __thiscall Window::CheckMessages(struct tagMSG &)" (?CheckMessages@Window@@IAEXAAUtagMSG@@@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__DispatchMessageA@4 referenced in function "protected: void __thiscall Window::CheckMessages(struct tagMSG &)" (?CheckMessages@Window@@IAEXAAUtagMSG@@@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__PeekMessageA@20 referenced in function "public: bool __thiscall Window::UpdateWindow(void)" (?UpdateWindow@Window@@QAE_NXZ)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__DefWindowProcA@16 referenced in function "protected: long __thiscall Window::WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@Window@@IAEJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__PostQuitMessage@4 referenced in function "protected: long __thiscall Window::WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@Window@@IAEJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__RegisterClassExA@4 referenced in function "public: __thiscall Window::Window(unsigned int,unsigned int)" (??0Window@@QAE@II@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__GetClassInfoExA@12 referenced in function "public: __thiscall Window::Window(unsigned int,unsigned int)" (??0Window@@QAE@II@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__CreateWindowExA@48 referenced in function "public: __thiscall Window::Window(unsigned int,unsigned int)" (??0Window@@QAE@II@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__ReleaseCapture@0 referenced in function "protected: long __thiscall Window::WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@Window@@IAEJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__GetClientRect@8 referenced in function "public: __thiscall Window::Window(unsigned int,unsigned int)" (??0Window@@QAE@II@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__ClipCursor@4 referenced in function "protected: long __thiscall Window::WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@Window@@IAEJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__GetWindowLongA@8 referenced in function "protected: static long __stdcall Window::StaticWindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?StaticWindowProc@Window@@KGJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__SetWindowLongA@12 referenced in function "protected: long __thiscall Window::WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@Window@@IAEJPAUHWND__@@IIJ@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__LoadCursorA@8 referenced in function "public: __thiscall Window::Window(unsigned int,unsigned int)" (??0Window@@QAE@II@Z)
+nclgl.lib(Window.obj) : error LNK2019: unresolved external symbol __imp__GetRawInputData@20 referenced in function "protected: void __thiscall Window::CheckMessages(struct tagMSG &)" (?CheckMessages@Window@@IAEXAAUtagMSG@@@Z)
+nclgl.lib(Mouse.obj) : error LNK2019: unresolved external symbol __imp__RegisterRawInputDevices@12 referenced in function "protected: __thiscall Mouse::Mouse(struct HWND__ * &)" (??0Mouse@@IAE@AAPAUHWND__@@@Z)
+nclgl.lib(Keyboard.obj) : error LNK2001: unresolved external symbol __imp__RegisterRawInputDevices@12
+C:\Users\Kurran\Projects\Snooker\SnookerSim-master\Game\Debug\Game.exe : fatal error LNK1120: 21 unresolved externals

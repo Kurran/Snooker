@@ -1,0 +1,48 @@
+﻿  Ball.cpp
+Ball.cpp(15): warning C4305: '=': truncation from 'double' to 'float'
+Ball.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+main.cpp(61): warning C4305: 'argument': truncation from 'double' to 'float'
+main.cpp(82): warning C4305: '=': truncation from 'double' to 'float'
+main.cpp(288): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(298): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(312): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(313): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(314): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(337): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+main.cpp(352): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  Mesh.cpp
+  Physics.cpp
+Physics.cpp(187): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+Physics.cpp(208): warning C4018: '<': signed/unsigned mismatch
+Physics.cpp(260): warning C4018: '<': signed/unsigned mismatch
+  pocket.cpp
+  Renderer.cpp
+  RenderObject.cpp
+  Shader.cpp
+C:\Users\Kurran\Projects\Snooker\SnookerSim-master\GLEW\include\GL/wglew.h(79): warning C4005: 'GLEWAPI': macro redefinition
+  C:\Users\Kurran\Projects\Snooker\SnookerSim-master\GLEW\include\GL/glew.h(205): note: see previous definition of 'GLEWAPI'
+  TableEdge.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+nclgl.lib(OGLRenderer.obj) : error LNK2001: unresolved external symbol __imp__SetPixelFormat@12
+nclgl.lib(OGLRenderer.obj) : error LNK2001: unresolved external symbol __imp__SwapBuffers@4
+nclgl.lib(OGLRenderer.obj) : error LNK2001: unresolved external symbol __imp__ChoosePixelFormat@8
+nclgl.lib(OGLRenderer.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__ReleaseCapture@0
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__RegisterClassExA@4
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__PostQuitMessage@4
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__PeekMessageA@20
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__ClipCursor@4
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__TranslateMessage@4
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__CreateWindowExA@48
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcA@16
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__TrackMouseEvent@4
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__GetRawInputData@20
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongA@12
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__GetClassInfoExA@12
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+nclgl.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__DispatchMessageA@4
+nclgl.lib(Keyboard.obj) : error LNK2001: unresolved external symbol __imp__RegisterRawInputDevices@12
+C:\Users\Kurran\Projects\Snooker\SnookerSim-master\Game\Release\Game.exe : fatal error LNK1120: 21 unresolved externals
